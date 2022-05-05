@@ -4,8 +4,8 @@ test('create an Employee parent class', () => {
     const employee = new Employee('Melanie', '1234567', 'melanie@awesome.com');
     
     expect(employee.name).toBe('Melanie');
-    expect(employee.id).toBe(expect.any(String));
-    expect(employee.email).toBe(expect.stringContaing('@'));
+    expect(employee.id).toEqual(expect.any(String));
+    expect(employee.email).toEqual(expect.stringContaining('@'));
 });
 
 test("returns employee's name", () => {
