@@ -3,7 +3,10 @@ const Engineer = require('../lib/Engineer');
 test('create Engineer class', () =>{
     const engineer = new Engineer('Tawnya', '987654', 'tawnya@awesome.com', 'tbeezy');
 
-    expect(engineer.github).toEqual(expect.any(String));
+    expect(engineer.name).toEqual('Tawnya');
+    expect(engineer.id).toEqual('987654');
+    expect(engineer.email).toEqual('tawnya@awesome.com');
+    expect(engineer.github).toEqual('tbeezy');
 });
 
 test('return github username', () =>{

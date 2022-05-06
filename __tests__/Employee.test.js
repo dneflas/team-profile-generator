@@ -3,9 +3,9 @@ const Employee = require('../lib/Employee');
 test('create an Employee parent class', () => {
     const employee = new Employee('Melanie', '1234567', 'melanie@awesome.com');
     
-    expect(employee.name).toBe('Melanie');
-    expect(employee.id).toEqual(expect.any(String));
-    expect(employee.email).toEqual(expect.stringContaining('@'));
+    expect(employee.name).toEqual('Melanie');
+    expect(employee.id).toEqual('1234567');
+    expect(employee.email).toEqual('melanie@awesome.com');
 });
 
 test("returns employee's name", () => {
