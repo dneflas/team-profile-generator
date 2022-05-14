@@ -1,4 +1,5 @@
 const Team = require('./lib/Team');
 
-new Team().selectManager();
+new Team().selectManager()
+
 

@@ -14,7 +14,7 @@ test("returns manager's office number", () => {
     expect(manager.getOfficeNumber()).toEqual('310-555-5555');
 })
 
-test('role overriden to return Manager', () =>{
+test('role overridden to return Manager', () =>{
     const manager = new Manager('Amanda', '4567890', 'amanda@awesome.com', '310-555-5555');
 
     expect(manager.getRole()).toEqual('Manager');
