@@ -6,8 +6,18 @@
   
   ## Description
 
-  Team Profile Generator is a command line application that uses Node.js to  take in user input, and dynamically generates an HTML page with your team information. Technologies used include HTML, CSS, Javascript, Bootstrap, FontAwesome, Node.js, and NPM Packages Jest and Inquirer.  
-  <br>
+  Team Profile Generator is a command line application that uses Node.js to  take in user input, and dynamically generates an HTML page with your team information. 
+  
+  Technologies used include:
+  - HTML 
+  - CSS 
+  - Javascript 
+  - Bootstrap 
+  - FontAwesome 
+  - Node.js
+  - NPM Packages Jest and Inquirer.  
+
+  
     ![Screenshot of application](./src/images/screenshot.png)
   <br>
 
